@@ -143,7 +143,7 @@ const Features = ({ selected, setSelected, isDesktop }) => {
               />
             )}
           </AnimatePresence>
-          <div className='bg-[#5368df] absolute w-80 h-51 -z-1 -left-2 top-17 rounded-r-full lg:-left-20 x:-left-40 lg:top-25 xl:top-30 lg:h-60 xl:h-85 lg:w-100 xl:w-160'></div>
+          <div className='bg-[#5368df] absolute w-80 h-51 -z-1 -left-2 top-17 rounded-r-full lg:-left-20 xl:-left-40 lg:top-25 xl:top-30 lg:h-60 xl:h-85 lg:w-100 xl:w-160'></div>
         </div>
           <AnimatePresence mode='wait'>
             {selected == 0 && (
@@ -214,7 +214,7 @@ const Extensions = () => {
             </div>
             <img src={dots} alt="" className='w-full max-md:h-full max-md:object-cover' />
             <div className='py-6 text-[0.95rem]'>
-              <button className='bg-[#5368df] px-9 lg:px-4 xl:px-9.5 py-3.5 rounded-md text-white cursor-pointer hover:bg-white hover:outline-[0.15rem] hover:outline-[#5368df] hover:text-[#5368df] hover:shadow-[0px_4px_6px_0px_#5368df] transition'>Add & Install Extension</button>
+              <button className='bg-[#5368df] px-9 lg:px-4 xl:px-8 py-3.5 rounded-md text-white cursor-pointer hover:bg-white hover:outline-[0.15rem] hover:outline-[#5368df] hover:text-[#5368df] hover:shadow-[0px_4px_6px_0px_#5368df] transition'>Add & Install Extension</button>
             </div>
           </div>
         ))}
